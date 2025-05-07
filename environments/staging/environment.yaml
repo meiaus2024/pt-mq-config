@@ -4,7 +4,7 @@
 version: 1.0
 app:
   # build id to deploy. if 'version' is commented out, the application is not deployed
-  version: ""
+  version: "3229c7fd-112d-41bb-8501-a6133610fff0"
  
   # MQ service
   # Note: "services" variable here is used to initiate private connection gateway between EASe Java and MQ
