@@ -6,6 +6,11 @@ app:
   # build id to deploy. if 'version' is commented out, the application is not deployed
   version: ""
 
+  # Enable a public endpoint for the application. If not set, the application
+  # is only available on an internal endpoint accessible to other applications
+  # within a subscription.
+  endpoints: public
+  
   # MQ service
   # Note: "services" variable here is used to initiate private connection gateway between EASe Java and MQ
   # when both servcies are at private endpoints. But currently for pen test, we're using MQ public endpoint (see mqHostName value below), 
