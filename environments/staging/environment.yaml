@@ -4,7 +4,7 @@
 version: 1.0
 app:
   # build id to deploy. if 'version' is commented out, the application is not deployed
-  version: "75554b6d-9d0f-42d7-86df-725370fe45d7"
+  version: "1711db28-7be8-4608-a24f-64257033b9aa"
 
   # Enable a public endpoint for the application. If not set, the application
   # is only available on an internal endpoint accessible to other applications
@@ -66,4 +66,5 @@ app:
       value: "qm1-0783.qmb56d.private.us-east.mq2.appdomain.cloud"
     - name: mqPort
       value: "443"
-    
+    - name: mqAppUserName
+      value: "easemquser1"  
