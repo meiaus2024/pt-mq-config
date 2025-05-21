@@ -40,12 +40,30 @@ app:
     
 
   # List of variables that can be referenced in the server.xml
+  #variables:
+  #  - name: mqManagerName
+  #    value: "meiQueMgr"
+  #  - name: mqHostName  
+  #    value: "meiquemgr-9906.qm.us-south.mq.appdomain.cloud"
+  #  - name: mqPort
+  #    value: "32439"
+  #  - name: mqAppUserName
+  #    value: "easemquser1"  
+  #Barb:
+   # - name: QueueManager
+   #   value: QM1
+   # - name: sslciphersuite
+   #   value: "TLS_AES_128_GCM_SHA256"
+   # - name: mqHost
+   #   value: 'qm1-0783.qmb56d.private.us-east.mq2.appdomain.cloud'
+   # - name: mqPort
+   #   value: "443"
+      
   variables:
     - name: mqManagerName
-      value: "meiQueMgr"
+      value: "QM1"
     - name: mqHostName  
-      value: "meiquemgr-9906.qm.us-south.mq.appdomain.cloud"
+      value: "qm1-0783.qmb56d.private.us-east.mq2.appdomain.cloud"
     - name: mqPort
-      value: "32439"
-    - name: mqAppUserName
-      value: "easemquser1"  
+      value: "443"
+    
