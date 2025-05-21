@@ -4,7 +4,7 @@
 version: 1.0
 app:
   # build id to deploy. if 'version' is commented out, the application is not deployed
-  version: "e199162e-d013-49df-a110-8225e9adeb4f"
+  version: "75554b6d-9d0f-42d7-86df-725370fe45d7"
 
   # Enable a public endpoint for the application. If not set, the application
   # is only available on an internal endpoint accessible to other applications
