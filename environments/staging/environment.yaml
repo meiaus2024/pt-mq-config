@@ -9,7 +9,8 @@ app:
   # Enable a public endpoint for the application. If not set, the application
   # is only available on an internal endpoint accessible to other applications
   # within a subscription.
-  #endpoints: public
+  # Even setting up private connection from EASe Java app to MQ, to access the app using external URL, we'll keep endpoint public here
+  endpoints: public
   
   # MQ service
   # Note: "services" variable here is used to initiate private connection gateway between EASe Java and MQ
